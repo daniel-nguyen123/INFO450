@@ -21,4 +21,4 @@ fig = px.bar(sales_per_city, x = 'City', y = 'sales', title = "data is fun")
 st.plotly_chart(fig)
 
 #show the dataframe
-st.datatframe(df)
+st.dataframe(df)
